@@ -911,4 +911,5 @@ async def on_message(message: discord.Message):
             
     log_message_to_file(message)
     await bot.process_commands(message)
+bot_token("") 
     
